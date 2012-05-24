@@ -100,9 +100,9 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => NULL,
   );
-  // Exported menu link: main-menu:media/events
-  $uuid_menu_links['main-menu:media/events'] = array(
-    'router_path' => 'media/events',
+  // Exported menu link: main-menu:media-center/events
+  $uuid_menu_links['main-menu:media-center/events'] = array(
+    'router_path' => 'media-center/events',
     'link_title' => 'Events',
     'options' => array(),
     'module' => 'menu',
@@ -111,13 +111,13 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'has_children' => '0',
     'expanded' => '0',
     'weight' => '1',
-    'uuid_link_path' => 'media/events',
+    'uuid_link_path' => 'media-center/events',
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'node/c58d6b80-f5ca-0f94-099e-fe2d29e5c930',
   );
-  // Exported menu link: main-menu:media/news
-  $uuid_menu_links['main-menu:media/news'] = array(
-    'router_path' => 'media/news',
+  // Exported menu link: main-menu:media-center/news
+  $uuid_menu_links['main-menu:media-center/news'] = array(
+    'router_path' => 'media-center/news',
     'link_title' => 'News',
     'options' => array(),
     'module' => 'menu',
@@ -126,13 +126,13 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'has_children' => '0',
     'expanded' => '0',
     'weight' => '0',
-    'uuid_link_path' => 'media/news',
+    'uuid_link_path' => 'media-center/news',
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'node/c58d6b80-f5ca-0f94-099e-fe2d29e5c930',
   );
-  // Exported menu link: main-menu:media/press-releases
-  $uuid_menu_links['main-menu:media/press-releases'] = array(
-    'router_path' => 'media/press-releases',
+  // Exported menu link: main-menu:media-center/press-releases
+  $uuid_menu_links['main-menu:media-center/press-releases'] = array(
+    'router_path' => 'media-center/press-releases',
     'link_title' => 'Press Releases',
     'options' => array(
       'attributes' => array(
@@ -145,7 +145,7 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'has_children' => '0',
     'expanded' => '0',
     'weight' => '0',
-    'uuid_link_path' => 'media/press-releases',
+    'uuid_link_path' => 'media-center/press-releases',
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'node/c58d6b80-f5ca-0f94-099e-fe2d29e5c930',
   );
@@ -323,9 +323,9 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'resources',
   );
-  // Exported menu link: main-menu:taxonomy/term/fc501719-4cf0-6574-1951-5d871c1e8723
-  /*$uuid_menu_links['main-menu:taxonomy/term/fc501719-4cf0-6574-1951-5d871c1e8723'] = array(
-    'router_path' => 'taxonomy/term/%',
+  // Exported menu link: main-menu:taxonomy/term/325186d5-8a56-4f64-d91f-d7539a53415d
+  /*$uuid_menu_links['main-menu:taxonomy/term/325186d5-8a56-4f64-d91f-d7539a53415d'] = array(
+    'router_path' => 'taxonomy/term/325186d5-8a56-4f64-d91f-d7539a53415d',
     'link_title' => 'Photos & Videos',
     'options' => array(),
     'module' => 'menu',
@@ -334,7 +334,7 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'has_children' => '0',
     'expanded' => '0',
     'weight' => '3',
-    'uuid_link_path' => 'taxonomy/term/fc501719-4cf0-6574-1951-5d871c1e8723',
+    'uuid_link_path' => 'taxonomy/term/325186d5-8a56-4f64-d91f-d7539a53415d',
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'node/c58d6b80-f5ca-0f94-099e-fe2d29e5c930',
   );*/

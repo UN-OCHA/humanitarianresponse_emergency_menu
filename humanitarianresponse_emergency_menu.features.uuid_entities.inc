@@ -215,7 +215,7 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     'last_comment_uid' => '1',
     'log' => '',
     'path' => array(
-      'alias' => 'media',
+      'alias' => 'media-center',
       'pathauto' => FALSE,
     ),
     'promote' => '0',

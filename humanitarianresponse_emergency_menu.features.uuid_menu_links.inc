@@ -115,6 +115,25 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'node/c58d6b80-f5ca-0f94-099e-fe2d29e5c930',
   );
+  // Exported menu link: main-menu:media-center/galleries
+  $uuid_menu_links['main-menu:media-center/galleries'] = array(
+    'router_path' => 'media-center/galleries',
+    'link_title' => 'Photos & Videos',
+    'options' => array(
+      'attributes' => array(
+        'title' => '',
+      ),
+    ),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '0',
+    'uuid_link_path' => 'media-center/galleries',
+    'uuid_menu_name' => 'main-menu',
+    'uuid_parent_path' => 'node/c58d6b80-f5ca-0f94-099e-fe2d29e5c930',
+  );
   // Exported menu link: main-menu:media-center/news
   $uuid_menu_links['main-menu:media-center/news'] = array(
     'router_path' => 'media-center/news',
@@ -323,21 +342,6 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'resources',
   );
-  // Exported menu link: main-menu:taxonomy/term/325186d5-8a56-4f64-d91f-d7539a53415d
-  /*$uuid_menu_links['main-menu:taxonomy/term/325186d5-8a56-4f64-d91f-d7539a53415d'] = array(
-    'router_path' => 'taxonomy/term/325186d5-8a56-4f64-d91f-d7539a53415d',
-    'link_title' => 'Photos & Videos',
-    'options' => array(),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '3',
-    'uuid_link_path' => 'taxonomy/term/325186d5-8a56-4f64-d91f-d7539a53415d',
-    'uuid_menu_name' => 'main-menu',
-    'uuid_parent_path' => 'node/c58d6b80-f5ca-0f94-099e-fe2d29e5c930',
-  );*/
   // Exported menu link: main-menu:visuals-data/humanitarian-profile
   $uuid_menu_links['main-menu:visuals-data/humanitarian-profile'] = array(
     'router_path' => 'visuals-data/humanitarian-profile',

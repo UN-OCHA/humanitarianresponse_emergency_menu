@@ -55,10 +55,10 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'node/49d73c11-0083-6944-818f-51687e6520fd',
   );
-  // Exported menu link: main-menu:coordination/contacts
-  $uuid_menu_links['main-menu:coordination/contacts'] = array(
-    'router_path' => 'coordination/contacts',
-    'link_title' => 'Contacts',
+  // Exported menu link: main-menu:coordination/operational-presence
+  $uuid_menu_links['main-menu:coordination/operational-presence'] = array(
+    'router_path' => 'coordination/operational-presence',
+    'link_title' => 'Operational Presence',
     'options' => array(),
     'module' => 'menu',
     'hidden' => '0',
@@ -66,7 +66,7 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'has_children' => '0',
     'expanded' => '0',
     'weight' => '4',
-    'uuid_link_path' => 'coordination/contacts',
+    'uuid_link_path' => 'coordination/operational-presence',
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'node/49d73c11-0083-6944-818f-51687e6520fd',
   );

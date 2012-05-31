@@ -32,6 +32,7 @@ features[uuid_menu_links][] = main-menu:media-center/press-releases
 features[uuid_menu_links][] = main-menu:node/232ca9d0-f223-2114-01bb-772c3f3de5d2
 features[uuid_menu_links][] = main-menu:node/429c837b-c13e-3b24-a17f-86cfc664b08c
 features[uuid_menu_links][] = main-menu:node/49d73c11-0083-6944-818f-51687e6520fd
+features[uuid_menu_links][] = main-menu:node/70684b57-84ea-0284-21dc-2aee75c77484
 features[uuid_menu_links][] = main-menu:node/c58d6b80-f5ca-0f94-099e-fe2d29e5c930
 features[uuid_menu_links][] = main-menu:resources
 features[uuid_menu_links][] = main-menu:resources/assessment-registry

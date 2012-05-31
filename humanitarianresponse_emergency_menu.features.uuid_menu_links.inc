@@ -342,6 +342,21 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'resources',
   );
+  // Exported menu link: main-menu:node/70684b57-84ea-0284-21dc-2aee75c77484
+  $uuid_menu_links['main-menu:node/70684b57-84ea-0284-21dc-2aee75c77484'] = array(
+    'router_path' => 'node/%',
+    'link_title' => 'CDAC Network',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '1',
+    'expanded' => '0',
+    'weight' => '-43',
+    'uuid_link_path' => 'node/70684b57-84ea-0284-21dc-2aee75c77484',
+    'uuid_menu_name' => 'main-menu',
+    'uuid_parent_path' => 'resources',
+  );
   // Exported menu link: main-menu:visuals-data/humanitarian-profile
   $uuid_menu_links['main-menu:visuals-data/humanitarian-profile'] = array(
     'router_path' => 'visuals-data/humanitarian-profile',

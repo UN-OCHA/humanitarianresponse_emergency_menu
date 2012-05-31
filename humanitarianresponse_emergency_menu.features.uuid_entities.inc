@@ -374,6 +374,98 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     'uid' => '1',
     'uuid' => '232ca9d0-f223-2114-01bb-772c3f3de5d2',
   );
+  
+  $entities['main_menu'][] = (object) array(
+    '__metadata' => array(
+      'type' => 'node',
+      'uri' => 'node/70684b57-84ea-0284-21dc-2aee75c77484',
+      'cause' => FALSE,
+    ),
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'format' => 'full_html',
+          'summary' => '',
+          'value' => '<p>A cross-sector collaboration between aid agencies, UN organisations, the Red Cross Movement, media development organisations, technology providers, and quality and accountability initiatives</p><hr><p>The Communicating with Disaster Affected Communities (CDAC) Network is a ground-breaking initiative that brings together expertise from the humanitarian, media development and technology sectors in a new collaboration that recognises information and two-way communication as key humanitarian deliverables.</p><p>This unique, cross sector initiative was set up in response to the policy paper <a href="http://downloads.bbc.co.uk/worldservice/trust/pdf/humanitarian_response_briefing.pdf">Left in the Dark</a>. This shows that those affected by disasters are often left out of the information and communication loop in emergency responses.</p><p>Yet information to, and communication with, affected people is essential – as a life-saving device, as key to enabling people to take ownership over their own recovery, and as critical to accountability and genuine participation. <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=ZDmKLcY7Nis">Communication is aid</a>. The CDAC Network recognises that two-way communication approaches, including through the appropriate use of media and technology, are underutilised in humanitarian responses.</p><p>There is no similar formal stakeholder group in the humanitarian sector and the CDAC Network does a number of things toward integrating and mainstreaming communication as aid. The Network focuses on the four strategic areas of <a href="http://www.cdacnetwork.org/public/about/convening">convening</a>, <a href="http://www.cdacnetwork.org/public/about/advocating">advocating</a>, <a href="http://www.cdacnetwork.org/public/about/learning">research and learning</a>, and <a href="http://www.cdacnetwork.org/public/about/strengthening-capacity">building capacity</a> to leverage change toward mainstreaming effective two-way communication between humanitarian responders and people affected by disasters. The Network’s <a href="http://www.cdacnetwork.org/public/about/vision-and-purpose">vision</a> is of change both within its own members and also the wider humanitarian sector.</p><p>For more information visit <a href="http://www.cdacnetwork.org">www.cdacnetwork.org</a> or contact:</p><ul><li>Craig Tucker, Information Officer, <a href="mailto:craig.tucker@cdacnetwork.org">craig.tucker@cdacnetwork.org</a></li><li>Rachel Houghton, Global Coordinator, <a href="mailto:rachel.houghton@cdacnetwork.org">rachel.houghton@cdacnetwork.org</a></li></ul>',
+        ),
+      ),
+    ),
+    'cid' => '0',
+    'comment' => '1',
+    'comment_count' => '0',
+    'language' => 'und',
+    'last_comment_name' => NULL,
+    'last_comment_uid' => '1',
+    'log' => '',
+    'path' => array(
+      'alias' => 'resources/cdac-network',
+      'pathauto' => FALSE,
+    ),
+    'promote' => '0',
+    'rdf_mapping' => array(
+      'rdftype' => array(
+        0 => 'sioc:Item',
+        1 => 'foaf:Document',
+      ),
+      'title' => array(
+        'predicates' => array(
+          0 => 'dc:title',
+        ),
+      ),
+      'created' => array(
+        'predicates' => array(
+          0 => 'dc:date',
+          1 => 'dc:created',
+        ),
+        'datatype' => 'xsd:dateTime',
+        'callback' => 'date_iso8601',
+      ),
+      'changed' => array(
+        'predicates' => array(
+          0 => 'dc:modified',
+        ),
+        'datatype' => 'xsd:dateTime',
+        'callback' => 'date_iso8601',
+      ),
+      'body' => array(
+        'predicates' => array(
+          0 => 'content:encoded',
+        ),
+      ),
+      'uid' => array(
+        'predicates' => array(
+          0 => 'sioc:has_creator',
+        ),
+        'type' => 'rel',
+      ),
+      'name' => array(
+        'predicates' => array(
+          0 => 'foaf:name',
+        ),
+      ),
+      'comment_count' => array(
+        'predicates' => array(
+          0 => 'sioc:num_replies',
+        ),
+        'datatype' => 'xsd:integer',
+      ),
+      'last_activity' => array(
+        'predicates' => array(
+          0 => 'sioc:last_activity_date',
+        ),
+        'datatype' => 'xsd:dateTime',
+        'callback' => 'date_iso8601',
+      ),
+    ),
+    'status' => '1',
+    'sticky' => '0',
+    'title' => 'CDAC Network',
+    'tnid' => '0',
+    'translate' => '0',
+    'type' => 'page',
+    'uid' => '1',
+    'uuid' => '70684b57-84ea-0284-21dc-2aee75c77484',
+  );
 
   return $entities;
 }

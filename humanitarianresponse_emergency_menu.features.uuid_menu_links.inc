@@ -250,7 +250,7 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
   // Exported menu link: main-menu:resources/assessment-registry
   $uuid_menu_links['main-menu:resources/assessment-registry'] = array(
     'router_path' => 'resources/assessment-registry',
-    'link_title' => 'Assessments Registry',
+    'link_title' => 'Assessment Registry',
     'options' => array(
       'attributes' => array(
         'title' => '',

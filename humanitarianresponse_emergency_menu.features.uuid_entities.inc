@@ -21,7 +21,7 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
         0 => array(
           'format' => 'filtered_html',
           'summary' => '',
-          'value' => '',
+          'value' => '<ul><li><a href="/coordination/calendar">Calendar</a></li><li><a href="/coordination/coordination-hubs">Coordination Hubs</a></li><li><a href="/coordination/operational-presence">Operational Presence</a></li></ul>',
         ),
       ),
     ),

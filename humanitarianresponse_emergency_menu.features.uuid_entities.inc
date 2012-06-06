@@ -112,7 +112,7 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
         0 => array(
           'format' => 'filtered_html',
           'summary' => '',
-          'value' => '',
+          'value' => '<ul><li><a href="/visuals-data/cod-fod-data">COD/FOD Data</a></li><li><a href="/visuals-data/humanitarian-profile">Humanitarian Profile Summary</a></li><li><a href="/visuals-data/visuals">Visuals</a></li></ul>',
         ),
       ),
     ),
@@ -306,7 +306,7 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     'last_comment_uid' => '1',
     'log' => '',
     'path' => array(
-      'alias' => 'codfod-data',
+      'alias' => 'visuals-data/cod-fod-data',
       'pathauto' => FALSE,
     ),
     'promote' => '0',

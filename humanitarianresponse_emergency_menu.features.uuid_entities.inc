@@ -203,7 +203,7 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
         0 => array(
           'format' => 'filtered_html',
           'summary' => '',
-          'value' => '',
+          'value' => '<ul><li><a href="/media-center/events">Events</a></li><li><a href="/media-center/news">News</a></li><li><a href="/media-center/galleries">Photos & Videos</a></li><li><a href="/media-center/press-releases">Press Releases</a></li></ul>',
         ),
       ),
     ),

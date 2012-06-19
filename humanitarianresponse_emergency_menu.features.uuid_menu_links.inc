@@ -55,21 +55,6 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'node/49d73c11-0083-6944-818f-51687e6520fd',
   );
-  // Exported menu link: main-menu:coordination/operational-presence
-  $uuid_menu_links['main-menu:coordination/operational-presence'] = array(
-    'router_path' => 'coordination/operational-presence',
-    'link_title' => 'Operational Presence',
-    'options' => array(),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '0',
-    'expanded' => '0',
-    'weight' => '4',
-    'uuid_link_path' => 'coordination/operational-presence',
-    'uuid_menu_name' => 'main-menu',
-    'uuid_parent_path' => 'node/49d73c11-0083-6944-818f-51687e6520fd',
-  );
   // Exported menu link: main-menu:coordination/coordination-hubs
   $uuid_menu_links['main-menu:coordination/coordination-hubs'] = array(
     'router_path' => 'coordination/coordination-hubs',
@@ -82,6 +67,21 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'expanded' => '0',
     'weight' => '0',
     'uuid_link_path' => 'coordination/coordination-hubs',
+    'uuid_menu_name' => 'main-menu',
+    'uuid_parent_path' => 'node/49d73c11-0083-6944-818f-51687e6520fd',
+  );
+  // Exported menu link: main-menu:coordination/operational-presence
+  $uuid_menu_links['main-menu:coordination/operational-presence'] = array(
+    'router_path' => 'coordination/operational-presence',
+    'link_title' => 'Operational Presence',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '0',
+    'expanded' => '0',
+    'weight' => '4',
+    'uuid_link_path' => 'coordination/operational-presence',
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'node/49d73c11-0083-6944-818f-51687e6520fd',
   );
@@ -213,6 +213,21 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => NULL,
   );
+  // Exported menu link: main-menu:node/70684b57-84ea-0284-21dc-2aee75c77484
+  $uuid_menu_links['main-menu:node/70684b57-84ea-0284-21dc-2aee75c77484'] = array(
+    'router_path' => 'node/%',
+    'link_title' => 'CDAC Network',
+    'options' => array(),
+    'module' => 'menu',
+    'hidden' => '0',
+    'external' => '0',
+    'has_children' => '1',
+    'expanded' => '0',
+    'weight' => '1',
+    'uuid_link_path' => 'node/70684b57-84ea-0284-21dc-2aee75c77484',
+    'uuid_menu_name' => 'main-menu',
+    'uuid_parent_path' => 'resources',
+  );
   // Exported menu link: main-menu:node/c58d6b80-f5ca-0f94-099e-fe2d29e5c930
   $uuid_menu_links['main-menu:node/c58d6b80-f5ca-0f94-099e-fe2d29e5c930'] = array(
     'router_path' => 'node/%',
@@ -342,21 +357,6 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
     'uuid_menu_name' => 'main-menu',
     'uuid_parent_path' => 'resources',
   );
-  // Exported menu link: main-menu:node/70684b57-84ea-0284-21dc-2aee75c77484
-  $uuid_menu_links['main-menu:node/70684b57-84ea-0284-21dc-2aee75c77484'] = array(
-    'router_path' => 'node/%',
-    'link_title' => 'CDAC Network',
-    'options' => array(),
-    'module' => 'menu',
-    'hidden' => '0',
-    'external' => '0',
-    'has_children' => '1',
-    'expanded' => '0',
-    'weight' => '1',
-    'uuid_link_path' => 'node/70684b57-84ea-0284-21dc-2aee75c77484',
-    'uuid_menu_name' => 'main-menu',
-    'uuid_parent_path' => 'resources',
-  );
   // Exported menu link: main-menu:visuals-data/humanitarian-profile
   $uuid_menu_links['main-menu:visuals-data/humanitarian-profile'] = array(
     'router_path' => 'visuals-data/humanitarian-profile',
@@ -389,11 +389,11 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
   );
   // Translatables
   // Included for use with string extractors like potx.
-  t('Assessments Registry');
+  t('Assessment Registry');
+  t('CDAC Network');
   t('COD/FOD Data');
   t('Calendar');
   t('Clusters');
-  t('Contacts');
   t('Coordination');
   t('Coordination Hubs');
   t('Dashboard');
@@ -403,6 +403,7 @@ function humanitarianresponse_emergency_menu_uuid_menu_default_menu_links() {
   t('Humanitarian Profile Summary');
   t('Media Center');
   t('News');
+  t('Operational Presence');
   t('Photos & Videos');
   t('Policy & Guidance');
   t('Press Releases');

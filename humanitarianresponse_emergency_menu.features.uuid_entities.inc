@@ -374,7 +374,6 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     'uid' => '1',
     'uuid' => '232ca9d0-f223-2114-01bb-772c3f3de5d2',
   );
-  
   $entities['main_menu'][] = (object) array(
     '__metadata' => array(
       'type' => 'node',

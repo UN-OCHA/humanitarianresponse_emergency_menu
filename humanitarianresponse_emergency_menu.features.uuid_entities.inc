@@ -101,7 +101,7 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     ),
     'status' => '1',
     'sticky' => '0',
-    'title' => array(
+    'title_field' => array(
       'en' => array(
         0 => array(
           'value' => 'Coordination',
@@ -210,7 +210,7 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     ),
     'status' => '1',
     'sticky' => '0',
-    'title' => array(
+    'title_field' => array(
       'en' => array(
         0 => array(
           'value' => 'Visuals & Data',

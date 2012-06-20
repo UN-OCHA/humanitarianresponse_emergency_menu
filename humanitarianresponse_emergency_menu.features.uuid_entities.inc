@@ -35,7 +35,7 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     'cid' => '0',
     'comment' => '0',
     'comment_count' => '0',
-    'language' => 'en',
+    'language' => 'und',
     'last_comment_name' => '',
     'last_comment_uid' => '1',
     'log' => '',
@@ -144,7 +144,7 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     'cid' => '0',
     'comment' => '0',
     'comment_count' => '0',
-    'language' => 'en',
+    'language' => 'und',
     'last_comment_name' => '',
     'last_comment_uid' => '1',
     'log' => '',
@@ -235,18 +235,25 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'body' => array(
-      'und' => array(
+      'en' => array(
         0 => array(
           'format' => 'filtered_html',
           'summary' => '',
           'value' => '<ul><li><a href="/media-center/events">Events</a></li><li><a href="/media-center/news">News</a></li><li><a href="/media-center/galleries">Photos & Videos</a></li><li><a href="/media-center/press-releases">Press Releases</a></li></ul>',
         ),
       ),
+      'fr' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => '',
+          'value' => '<ul><li><a href="/media-center/events">Evénements</a></li><li><a href="/media-center/news">Actualités</a></li><li><a href="/media-center/galleries">Photos & Vidéos</a></li><li><a href="/media-center/press-releases">Points Presse</a></li></ul>',
+        ),
+      ),
     ),
     'cid' => '0',
     'comment' => '0',
     'comment_count' => '0',
-    'language' => 'en',
+    'language' => 'und',
     'last_comment_name' => '',
     'last_comment_uid' => '1',
     'log' => '',
@@ -312,7 +319,18 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     ),
     'status' => '1',
     'sticky' => '0',
-    'title' => 'Media Center',
+    'title_field' => array(
+      'en' => array(
+        0 => array(
+          'value' => 'Media Center',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'value' => 'Centre Multimédia',
+        ),
+      ),
+    ),
     'tnid' => '0',
     'translate' => '0',
     'type' => 'page',
@@ -337,7 +355,7 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     'cid' => '0',
     'comment' => '0',
     'comment_count' => '0',
-    'language' => 'en',
+    'language' => 'und',
     'last_comment_name' => '',
     'last_comment_uid' => '1',
     'log' => '',
@@ -403,7 +421,18 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     ),
     'status' => '1',
     'sticky' => '0',
-    'title' => 'COD/FOD Data',
+    'title_field' => array(
+      'en' => array(
+        0 => array(
+          'value' => 'COD/FOD Data',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'value' => 'Données COD/FOD',
+        ),
+      ),
+    ),
     'tnid' => '0',
     'translate' => '0',
     'type' => 'page',
@@ -417,18 +446,25 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'body' => array(
-      'und' => array(
+      'en' => array(
         0 => array(
           'format' => 'full_html',
           'summary' => '',
           'value' => '<p style="text-align: center;"><img alt="CDAC Network" src="http://www.cdacnetwork.org/sites/www.cdacnetwork.org/themes/basic/images/CDAC-logo.png" /></p><p>A cross-sector collaboration between aid agencies, UN organisations, the Red Cross Movement, media development organisations, technology providers, and quality and accountability initiatives</p><hr><p>The Communicating with Disaster Affected Communities (CDAC) Network is a ground-breaking initiative that brings together expertise from the humanitarian, media development and technology sectors in a new collaboration that recognises information and two-way communication as key humanitarian deliverables.</p><p>This unique, cross sector initiative was set up in response to the policy paper <a href="http://downloads.bbc.co.uk/worldservice/trust/pdf/humanitarian_response_briefing.pdf">Left in the Dark</a>. This shows that those affected by disasters are often left out of the information and communication loop in emergency responses.</p><p>Yet information to, and communication with, affected people is essential – as a life-saving device, as key to enabling people to take ownership over their own recovery, and as critical to accountability and genuine participation. <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=ZDmKLcY7Nis">Communication is aid</a>. The CDAC Network recognises that two-way communication approaches, including through the appropriate use of media and technology, are underutilised in humanitarian responses.</p><p>There is no similar formal stakeholder group in the humanitarian sector and the CDAC Network does a number of things toward integrating and mainstreaming communication as aid. The Network focuses on the four strategic areas of <a href="http://www.cdacnetwork.org/public/about/convening">convening</a>, <a href="http://www.cdacnetwork.org/public/about/advocating">advocating</a>, <a href="http://www.cdacnetwork.org/public/about/learning">research and learning</a>, and <a href="http://www.cdacnetwork.org/public/about/strengthening-capacity">building capacity</a> to leverage change toward mainstreaming effective two-way communication between humanitarian responders and people affected by disasters. The Network’s <a href="http://www.cdacnetwork.org/public/about/vision-and-purpose">vision</a> is of change both within its own members and also the wider humanitarian sector.</p><p>For more information visit <a href="http://www.cdacnetwork.org">www.cdacnetwork.org</a> or contact:</p><ul><li>Craig Tucker, Information Officer, <a href="mailto:craig.tucker@cdacnetwork.org">craig.tucker@cdacnetwork.org</a></li><li>Rachel Houghton, Global Coordinator, <a href="mailto:rachel.houghton@cdacnetwork.org">rachel.houghton@cdacnetwork.org</a></li></ul>',
         ),
       ),
+      'fr' => array(
+        0 => array(
+          'format' => 'full_html',
+          'summary' => '',
+          'value' => '<p style="text-align: center;"><img alt="CDAC Network" src="http://www.cdacnetwork.org/sites/www.cdacnetwork.org/themes/basic/images/CDAC-logo.png" /></p><p>Un réseau between aid agencies, UN organisations, the Red Cross Movement, media development organisations, technology providers, and quality and accountability initiatives</p><hr><p>The Communicating with Disaster Affected Communities (CDAC) Network is a ground-breaking initiative that brings together expertise from the humanitarian, media development and technology sectors in a new collaboration that recognises information and two-way communication as key humanitarian deliverables.</p><p>This unique, cross sector initiative was set up in response to the policy paper <a href="http://downloads.bbc.co.uk/worldservice/trust/pdf/humanitarian_response_briefing.pdf">Left in the Dark</a>. This shows that those affected by disasters are often left out of the information and communication loop in emergency responses.</p><p>Yet information to, and communication with, affected people is essential – as a life-saving device, as key to enabling people to take ownership over their own recovery, and as critical to accountability and genuine participation. <a href="http://www.youtube.com/watch?feature=player_embedded&amp;v=ZDmKLcY7Nis">Communication is aid</a>. The CDAC Network recognises that two-way communication approaches, including through the appropriate use of media and technology, are underutilised in humanitarian responses.</p><p>There is no similar formal stakeholder group in the humanitarian sector and the CDAC Network does a number of things toward integrating and mainstreaming communication as aid. The Network focuses on the four strategic areas of <a href="http://www.cdacnetwork.org/public/about/convening">convening</a>, <a href="http://www.cdacnetwork.org/public/about/advocating">advocating</a>, <a href="http://www.cdacnetwork.org/public/about/learning">research and learning</a>, and <a href="http://www.cdacnetwork.org/public/about/strengthening-capacity">building capacity</a> to leverage change toward mainstreaming effective two-way communication between humanitarian responders and people affected by disasters. The Network’s <a href="http://www.cdacnetwork.org/public/about/vision-and-purpose">vision</a> is of change both within its own members and also the wider humanitarian sector.</p><p>For more information visit <a href="http://www.cdacnetwork.org">www.cdacnetwork.org</a> or contact:</p><ul><li>Craig Tucker, Information Officer, <a href="mailto:craig.tucker@cdacnetwork.org">craig.tucker@cdacnetwork.org</a></li><li>Rachel Houghton, Global Coordinator, <a href="mailto:rachel.houghton@cdacnetwork.org">rachel.houghton@cdacnetwork.org</a></li></ul>',
+        ),
+      ),
     ),
     'cid' => '0',
     'comment' => '1',
     'comment_count' => '0',
-    'language' => 'en',
+    'language' => 'und',
     'last_comment_name' => NULL,
     'last_comment_uid' => '1',
     'log' => '',
@@ -494,7 +530,18 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     ),
     'status' => '1',
     'sticky' => '0',
-    'title' => 'CDAC Network',
+    'title_field' => array(
+      'en' => array(
+        0 => array(
+          'value' => 'CDAC Network',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'value' => 'Réseau CDAC',
+        ),
+      ),
+    ),
     'tnid' => '0',
     'translate' => '0',
     'type' => 'page',

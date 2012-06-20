@@ -17,11 +17,18 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'body' => array(
-      'und' => array(
+      'en' => array(
         0 => array(
           'format' => 'filtered_html',
           'summary' => '',
           'value' => '<ul><li><a href="/coordination/calendar">Calendar</a></li><li><a href="/coordination/coordination-hubs">Coordination Hubs</a></li><li><a href="/coordination/operational-presence">Operational Presence</a></li></ul>',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => '',
+          'value' => '<ul><li><a href="/coordination/calendar">Calendrier</a></li><li><a href="/coordination/coordination-hubs">Bureaux de Coordination</a></li><li><a href="/coordination/operational-presence">Présence Opérationnelle</a></li></ul>',
         ),
       ),
     ),
@@ -108,11 +115,18 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
       'cause' => FALSE,
     ),
     'body' => array(
-      'und' => array(
+      'en' => array(
         0 => array(
           'format' => 'filtered_html',
           'summary' => '',
           'value' => '<ul><li><a href="/visuals-data/cod-fod-data">COD/FOD Data</a></li><li><a href="/visuals-data/humanitarian-profile">Humanitarian Profile Summary</a></li><li><a href="/visuals-data/visuals">Visuals</a></li></ul>',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'format' => 'filtered_html',
+          'summary' => '',
+          'value' => '<ul><li><a href="/visuals-data/cod-fod-data">Données COD/FOD</a></li><li><a href="/visuals-data/humanitarian-profile">Profil Humanitaire</a></li><li><a href="/visuals-data/visuals">Visuels</a></li></ul>',
         ),
       ),
     ),

@@ -101,7 +101,18 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     ),
     'status' => '1',
     'sticky' => '0',
-    'title' => 'Coordination',
+    'title' => array(
+      'en' => array(
+        0 => array(
+          'value' => 'Coordination',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'value' => 'Coordination',
+        ),
+      ),
+    ),
     'tnid' => '0',
     'translate' => '0',
     'type' => 'page',
@@ -199,7 +210,18 @@ function humanitarianresponse_emergency_menu_uuid_default_entities() {
     ),
     'status' => '1',
     'sticky' => '0',
-    'title' => 'Visuals & Data',
+    'title' => array(
+      'en' => array(
+        0 => array(
+          'value' => 'Visuals & Data',
+        ),
+      ),
+      'fr' => array(
+        0 => array(
+          'value' => 'Visuels & Données',
+        ),
+      ),
+    ),
     'tnid' => '0',
     'translate' => '0',
     'type' => 'page',
